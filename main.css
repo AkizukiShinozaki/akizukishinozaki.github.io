@@ -1,0 +1,96 @@
+body{
+    margin: auto 0;
+    padding:0px;
+    outline:none;
+    background-image: url(body.jpg);
+}
+hr{
+    height:1px;
+    border:none;
+    border-top:4px solid #5C3510;
+    margin: 10px 40px 10px 40px;
+}
+ul{
+    margin:0 auto;
+    padding:0px;
+}
+li{
+    list-style: none;
+}
+.top{
+    background:url(header_bg.png) 0 0 repeat-x;
+    width:100%;
+    height:65px;
+    margin:0 auto;
+    padding:0px;
+    position: fixed;
+}
+.logo{
+    float: left;
+    position: fixed;
+    padding:0px 40px 5px 40px;
+}
+.a img{
+    /* padding:20px 10px 100px 20px; */
+    position: absolute;
+    top: 5px;
+    left: calc(50vw - 97.5px);
+    flex-shrink: 0;
+    width: 195px;
+    height: 102px;
+    /* background: transparent url(/images/stella/logo.png) 50% no-repeat; */
+}
+.button:hover{
+    background-color:#FF6240;
+    color:#FFF38D;
+}
+#outer{
+    width:100%;
+    height:280px;
+    margin:0px auto;
+    /* background-color: crimson; */
+    padding:0px;
+    /* 开启相对定位 */
+    position: relative;
+    /* 裁剪溢出的内容 */
+    /* overflow: hidden; */
+}
+/*
+可以根据自己需要改变样式，我是全横屏的*/
+.center_photo{
+	width:100%;
+	margin:0;
+	padding-top:100px;
+	height:400px;
+	}
+.center_photo img{width:100%;height:100%;}
+.returntop{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index:100;
+}
+.mainbav img{
+    width:200px;
+    height:90px;
+    -webkit-transition:2s;
+}
+.mainbav img:hover{
+    width:210px;
+    height:100px;
+    -webkit-transform:rotate(-35deg);
+}
+.block{
+    width:800px;
+    border:0px  #5C3510 solid;
+    margin:0px auto;
+    /* text-align: center; */
+    padding:10px;
+}
+.footer{
+    background:url(footer.jpg);
+    width:100%;
+    height:50px;
+    padding:10px;
+
+}
